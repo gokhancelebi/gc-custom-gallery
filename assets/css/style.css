@@ -1,0 +1,8 @@
+.gc-gallery-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gc-gallery-list img{max-width:100%}
+.gc-gallery-list a{ border:0!important;text-align: center}
